@@ -1,10 +1,10 @@
-#🔍 Lost & Found Management System
-##Akademia Finansów i Biznesu Vistula — Kawęczyńska 36, Warsaw
+# 🔍 Lost & Found Management System
+## Akademia Finansów i Biznesu Vistula — Kawęczyńska 36, Warsaw
 A desktop application for managing lost and found items at Vistula University. 
 Built with Python using OOP principles, a SQLite database, and a Tkinter graphical interface.
 
-#📋 Features (10 Functionalities)
-#Functionality            #Details
+# 📋 Features (10 Functionalities)
+# Functionality            #Details
 01  User Registration      SHA-256 hashed passwords
 02 Login & Logout           Session management
 03 Register Lost Item       With optional image upload
@@ -15,7 +15,7 @@ Built with Python using OOP principles, a SQLite database, and a Tkinter graphic
 08 Admin Dashboard           Live lost/found item counts
 09 Claimed Items View        Full claims history table10Excel ExportExports items + claims to .xlsx
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python 3 — core language
 Tkinter — GUI framework
@@ -24,7 +24,7 @@ openpyxl — Excel report generation
 Pillow — image handling in splash screen
 hashlib — SHA-256 password hashing
 
-##⚙️ OOP Concepts Used
+## ⚙️ OOP Concepts Used
 
 Encapsulation — private attributes (_password_hash, _name) with @property getters
 Abstraction — Item(ABC) abstract base class with @abstractmethod match()
